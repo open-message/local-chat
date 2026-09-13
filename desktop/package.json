@@ -1,0 +1,6 @@
+{
+  "name": "local-chat-desktop",
+  "private": true,
+  "type": "module",
+  "description": "ElectroBun vault shell for Local Chat"
+}

@@ -1,0 +1,9 @@
+.hutch/
+build/
+.idea/
+.vscode/
+_seed.html
+img/_verify*.png
+.chrome-*/
+scripts/.cache/
+.dev-certs/

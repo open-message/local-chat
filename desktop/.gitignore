@@ -1,0 +1,5 @@
+.hutch/
+build/
+node_modules/
+*.log
+*.cottontail-tmp/

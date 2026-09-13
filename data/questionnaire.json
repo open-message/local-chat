@@ -1,0 +1,98 @@
+{
+  "title": "Values and how you show up",
+  "questions": [
+    {
+      "id": "weekend",
+      "prompt": "Ideal weekend",
+      "options": [
+        { "id": "quiet", "label": "Quiet at home" },
+        { "id": "mix", "label": "A mix of rest and plans" },
+        { "id": "social", "label": "Out with people" }
+      ]
+    },
+    {
+      "id": "communication",
+      "prompt": "How you like to communicate",
+      "options": [
+        { "id": "text", "label": "Text first" },
+        { "id": "call", "label": "Call or voice notes" },
+        { "id": "inperson", "label": "In person when it matters" }
+      ]
+    },
+    {
+      "id": "conflict",
+      "prompt": "When something is off",
+      "options": [
+        { "id": "space", "label": "Need space first" },
+        { "id": "talk", "label": "Talk it out now" },
+        { "id": "write", "label": "Write it down, then talk" }
+      ]
+    },
+    {
+      "id": "pace",
+      "prompt": "Relationship pace",
+      "options": [
+        { "id": "slow", "label": "Slow" },
+        { "id": "moderate", "label": "Moderate" },
+        { "id": "jump", "label": "Jump in" }
+      ]
+    },
+    {
+      "id": "kids",
+      "prompt": "Kids",
+      "options": [
+        { "id": "have", "label": "Have kids" },
+        { "id": "want", "label": "Want kids" },
+        { "id": "dont", "label": "Don't want Kids or can't have kids" },
+        { "id": "unsure", "label": "Unsure" }
+      ]
+    },
+    {
+      "id": "politics",
+      "prompt": "Politics in a relationship",
+      "options": [
+        { "id": "dealbreaker", "label": "Alignment is a dealbreaker" },
+        { "id": "matters", "label": "It matters" },
+        { "id": "notcentral", "label": "Not central" }
+      ]
+    },
+    {
+      "id": "spirituality",
+      "prompt": "Spirituality or faith",
+      "options": [
+        { "id": "important", "label": "Important" },
+        { "id": "somewhat", "label": "Somewhat" },
+        { "id": "not", "label": "Not important" }
+      ]
+    },
+    {
+      "id": "substances",
+      "prompt": "Drinking and substances",
+      "options": [
+        { "id": "none", "label": "None for me" },
+        { "id": "social", "label": "Social / occasional" },
+        { "id": "frequent", "label": "Frequent" }
+      ]
+    },
+    {
+      "id": "care",
+      "prompt": "How you tend to show care",
+      "options": [
+        { "id": "words", "label": "Words" },
+        { "id": "time", "label": "Time together" },
+        { "id": "acts", "label": "Acts of service" },
+        { "id": "gifts", "label": "Gifts" },
+        { "id": "touch", "label": "Touch" }
+      ]
+    },
+    {
+      "id": "looking",
+      "prompt": "Looking for",
+      "options": [
+        { "id": "dating", "label": "Dating" },
+        { "id": "friends", "label": "Friends" },
+        { "id": "either", "label": "Open to either" }
+      ]
+    }
+  ]
+}

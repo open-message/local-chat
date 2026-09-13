@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#6b8f71" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Local Chat" />
+    <meta
+      name="description"
+      content="Local Chat is a free, peer-to-peer way to meet people nearby. No company backend. Online-only rooms by nearby US ZIP codes from your GPS and distance setting."
+    />
+    <title>Local Chat</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="img/icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="img/icon-192.png" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <img src="img/icon-192.png" alt="" width="28" height="28" />
+          <span>Local Chat</span>
+        </div>
+        <div class="topbar-actions">
+          <button type="button" id="filter-btn" class="btn ghost topbar-filter" hidden>Filters</button>
+          <button type="button" id="qr-btn" class="icon-btn" hidden aria-label="Show my QR code">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M3 3h8v8H3zm2 2v4h4V5zm10-2h8v8h-8zm2 2v4h4V5zM3 13h8v8H3zm2 2v4h4v-4zm12-2h2v2h-2zm4 0h2v2h-2zm-4 4h2v2h-2zm4 0h2v2h-2zm-4 4h2v2h-2zm4 0h2v2h-2z"/>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <main id="main" class="main"></main>
+      <nav id="nav" class="nav" hidden>
+        <button type="button" data-view="stack">Online</button>
+        <button type="button" data-view="chat" aria-label="Chat">
+          Chat<span class="nav-badge" data-chat-badge hidden></span>
+        </button>
+        <button type="button" data-view="friends">Friends</button>
+        <button type="button" data-view="you">You</button>
+        <button type="button" data-view="settings">Settings</button>
+      </nav>
+    </div>
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
